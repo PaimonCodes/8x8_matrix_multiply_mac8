@@ -1,0 +1,74 @@
+{D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/tb_lab6.v} {1 {vlog -work work -stats=none {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/tb_lab6.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_lab6
+
+Top level modules:
+	tb_lab6
+
+} {} {}} {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/majority.v} {1 {vlog -work work -stats=none {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/majority.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module majority
+
+Top level modules:
+	majority
+
+} {} {}} {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/ram_output.v} {1 {vlog -work work -stats=none {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/ram_output.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_output
+
+Top level modules:
+	ram_output
+
+} {} {}} {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/buffer_delay.v} {1 {vlog -work work -stats=none {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/buffer_delay.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module buffer_delay
+
+Top level modules:
+	buffer_delay
+
+} {} {}} {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v} {2 {vlog -work work -stats=none {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module matrix_multiply_eight_mac
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(210): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(209): (vlog-2182) 'd' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(209): (vlog-2182) 'e' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(212): (vlog-2182) 'f' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(211): (vlog-2182) 'g' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(211): (vlog-2182) 'h' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(215): (vlog-2182) 'i' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(214): (vlog-2182) 'j' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(214): (vlog-2182) 'k' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(217): (vlog-2182) 'l' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(216): (vlog-2182) 'm' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(216): (vlog-2182) 'n' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(220): (vlog-2182) 'o' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(219): (vlog-2182) 'p' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(219): (vlog-2182) 'q' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(222): (vlog-2182) 'r' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(221): (vlog-2182) 's' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(221): (vlog-2182) 't' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(225): (vlog-2182) 'u' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(224): (vlog-2182) 'v' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(224): (vlog-2182) 'w' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(227): (vlog-2182) 'x' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(226): (vlog-2182) 'y' might be read before written in always_comb or always @* block.
+** Warning: D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/matrix_multiply_eight_mac.v(226): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	matrix_multiply_eight_mac
+
+} {} {}} {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/MAC.v} {1 {vlog -work work -stats=none {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/MAC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MAC
+
+Top level modules:
+	MAC
+
+} {} {}} {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/receiving_buffer.v} {1 {vlog -work work -stats=none {D:/Projects/Quartus Prime/EEC 180/Lab6-RE/Task4-Re/receiving_buffer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module receiving_buffer
+
+Top level modules:
+	receiving_buffer
+
+} {} {}}
